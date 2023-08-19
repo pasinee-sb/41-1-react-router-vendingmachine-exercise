@@ -1,0 +1,26 @@
+.vending-machine-container {
+  display: flex;
+}
+
+.content-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: column; /* Set to column layout */
+  padding: 20px;
+  background-color: #b83535; /* Add background color as needed */
+  border-right: 1px solid #ccc; /* Add border as needed */
+}
+
+.NavLink {
+  margin-bottom: 10px; /* Add spacing between links */
+  text-decoration: none;
+  color: #333; /* Set link color */
+}
+
+.NavLink:hover {
+  color: #555; /* Set link color on hover */
+}
